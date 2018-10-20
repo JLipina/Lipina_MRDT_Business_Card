@@ -1,1 +1,264 @@
 EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:MRDT_Actives
+LIBS:MRDT_Connectors
+LIBS:MRDT_Devices
+LIBS:MRDT_Drill_Holes
+LIBS:MRDT_Headers
+LIBS:MRDT_ICs
+LIBS:MRDT_Passives
+LIBS:MRDT_Sensors
+LIBS:MRDT_Shields
+LIBS:MRDT_Silkscreens
+LIBS:MRDT_Switches
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ACS711 U?
+U 1 1 5B9C779F
+P 7700 2750
+F 0 "U?" H 7550 2350 60  0000 C CNN
+F 1 "ACS711" H 7700 2950 60  0000 C CNN
+F 2 "" H 7700 2750 60  0001 C CNN
+F 3 "" H 7700 2750 60  0001 C CNN
+	1    7700 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L AP1059 U?
+U 1 1 5B9C77B7
+P 2900 2850
+F 0 "U?" H 2950 2800 60  0000 C CNN
+F 1 "AP1059" H 3100 3300 60  0000 C CNN
+F 2 "" H 2650 2750 60  0001 C CNN
+F 3 "" H 2650 2750 60  0001 C CNN
+	1    2900 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Molex_SL_02 3.3V_IN
+U 1 1 5B9C7803
+P 900 1000
+F 0 "3.3V_IN" H 1050 950 60  0000 C CNN
+F 1 "Molex_SL_02" H 950 1250 60  0000 C CNN
+F 2 "" H 900 900 60  0001 C CNN
+F 3 "" H 900 900 60  0001 C CNN
+	1    900  1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Fuze F?
+U 1 1 5B9C7856
+P 7150 2050
+F 0 "F?" H 7050 1950 60  0000 C CNN
+F 1 "Fuze" H 7150 2150 60  0000 C CNN
+F 2 "" H 7000 2000 60  0001 C CNN
+F 3 "" H 7000 2000 60  0001 C CNN
+	1    7150 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L LED3P LED?
+U 1 1 5B9C7892
+P 4650 2150
+F 0 "LED?" H 4850 1850 60  0000 C CNN
+F 1 "LED3P" H 4850 2400 60  0000 C CNN
+F 2 "LED_CREE_XLAMP_XPG" H 4850 2500 60  0001 C CNN
+F 3 "" H 4650 2150 60  0000 C CNN
+	1    4650 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LT1910 U?
+U 1 1 5B9C797C
+P 1450 2500
+F 0 "U?" H 1500 2450 60  0000 C CNN
+F 1 "LT1910" H 1600 3050 60  0000 C CNN
+F 2 "" H 1450 2500 60  0001 C CNN
+F 3 "" H 1450 2500 60  0001 C CNN
+	1    1450 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRF7821PbF U?
+U 1 1 5B9C79F1
+P 6100 3500
+F 0 "U?" H 6150 3450 60  0000 C CNN
+F 1 "IRF7821PbF" H 6450 3950 60  0000 C CNN
+F 2 "" H 6100 3500 60  0001 C CNN
+F 3 "" H 6100 3500 60  0001 C CNN
+	1    6100 3500
+	1    0    0    -1  
+$EndComp
+Text GLabel 2500 750  2    60   Input ~ 0
+3.3V
+Text GLabel 2500 1450 2    60   UnSpc ~ 0
+GND
+Text GLabel 8200 2700 2    60   Input ~ 0
+3.3V
+$Comp
+L Molex_SL_02 I_IN/OUT
+U 1 1 5B9C8477
+P 7500 1450
+F 0 "I_IN/OUT" H 7650 1400 60  0000 C CNN
+F 1 "Molex_SL_02" H 7550 1700 60  0000 C CNN
+F 2 "" H 7500 1350 60  0001 C CNN
+F 3 "" H 7500 1350 60  0001 C CNN
+	1    7500 1450
+	1    0    0    -1  
+$EndComp
+Text GLabel 8200 3000 2    60   UnSpc ~ 0
+GND
+$Comp
+L LED D?
+U 1 1 5B9C85E8
+P 2250 950
+F 0 "D?" H 2250 1050 50  0000 C CNN
+F 1 "LED" H 2250 850 50  0000 C CNN
+F 2 "" H 2250 950 50  0001 C CNN
+F 3 "" H 2250 950 50  0001 C CNN
+	1    2250 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5B9C895A
+P 1400 1100
+F 0 "C?" H 1410 1170 50  0000 L CNN
+F 1 "10u" H 1410 1020 50  0000 L CNN
+F 2 "" H 1400 1100 50  0001 C CNN
+F 3 "" H 1400 1100 50  0001 C CNN
+	1    1400 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5B9C89A3
+P 1750 1100
+F 0 "C?" H 1760 1170 50  0000 L CNN
+F 1 "10p" H 1760 1020 50  0000 L CNN
+F 2 "" H 1750 1100 50  0001 C CNN
+F 3 "" H 1750 1100 50  0001 C CNN
+	1    1750 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5B9C8D5B
+P 2250 1250
+F 0 "R?" V 2330 1250 50  0000 C CNN
+F 1 "330" V 2250 1250 50  0000 C CNN
+F 2 "" V 2180 1250 50  0001 C CNN
+F 3 "" H 2250 1250 50  0001 C CNN
+	1    2250 1250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2500 750  1100 750 
+Wire Wire Line
+	1100 750  1100 1050
+Wire Wire Line
+	1100 1150 1100 1450
+Wire Wire Line
+	1100 1450 2500 1450
+Wire Wire Line
+	2250 1400 2250 1450
+Connection ~ 2250 1450
+Wire Wire Line
+	2250 800  2250 750 
+Connection ~ 2250 750 
+Wire Wire Line
+	1750 1000 1750 750 
+Connection ~ 1750 750 
+Wire Wire Line
+	1400 1000 1400 750 
+Connection ~ 1400 750 
+Wire Wire Line
+	1400 1200 1400 1450
+Connection ~ 1400 1450
+Wire Wire Line
+	1750 1200 1750 1450
+Connection ~ 1750 1450
+Wire Wire Line
+	7300 1400 7150 1400
+Wire Wire Line
+	7150 1400 7150 1700
+Wire Wire Line
+	7150 2400 7150 2800
+Wire Wire Line
+	7150 2700 7300 2700
+Wire Wire Line
+	7150 2800 7300 2800
+Connection ~ 7150 2700
+Wire Wire Line
+	7300 2900 7150 2900
+Wire Wire Line
+	7150 2900 7150 3450
+Wire Wire Line
+	7150 3450 7000 3450
+Wire Wire Line
+	7000 3450 7000 3150
+Wire Wire Line
+	7300 3000 7150 3000
+Connection ~ 7150 3000
+Text GLabel 5900 3150 0    60   Output ~ 0
+I_SENSE
+$Comp
+L Molex_SL_02 TO_MICRO
+U 1 1 5B9CA4E1
+P 3600 1000
+F 0 "TO_MICRO" H 3750 950 60  0000 C CNN
+F 1 "Molex_SL_02" H 3650 1250 60  0000 C CNN
+F 2 "" H 3600 900 60  0001 C CNN
+F 3 "" H 3600 900 60  0001 C CNN
+	1    3600 1000
+	-1   0    0    1   
+$EndComp
+Text GLabel 3800 1050 2    60   Input ~ 0
+I_SENSE
+Text GLabel 3800 1150 2    60   Input ~ 0
+I_CTR
+$EndSCHEMATC

@@ -1,4 +1,4 @@
-update=9/14/2018 6:37:23 PM
+update=9/16/2018 10:42:21 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,5 +59,16 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
+LibName33=C:/MRDT_KiCAD_Libraries/Device/MRDT_Actives
+LibName34=C:/MRDT_KiCAD_Libraries/Device/MRDT_Connectors
+LibName35=C:/MRDT_KiCAD_Libraries/Device/MRDT_Devices
+LibName36=C:/MRDT_KiCAD_Libraries/Device/MRDT_Drill_Holes
+LibName37=C:/MRDT_KiCAD_Libraries/Device/MRDT_Headers
+LibName38=C:/MRDT_KiCAD_Libraries/Device/MRDT_ICs
+LibName39=C:/MRDT_KiCAD_Libraries/Device/MRDT_Passives
+LibName40=C:/MRDT_KiCAD_Libraries/Device/MRDT_Sensors
+LibName41=C:/MRDT_KiCAD_Libraries/Device/MRDT_Shields
+LibName42=C:/MRDT_KiCAD_Libraries/Device/MRDT_Silkscreens
+LibName43=C:/MRDT_KiCAD_Libraries/Device/MRDT_Switches
 [general]
 version=1
